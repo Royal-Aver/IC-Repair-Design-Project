@@ -108,6 +108,8 @@ button {
 
 .header__logo:hover {
   color: #fff;
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
 .header__menu {
@@ -123,7 +125,7 @@ button {
 }
 
 .menu__list-item + .menu__list-item {
-  margin-left: 47px;
+  margin-left: 54px;
 }
 
 .menu__list-link {
@@ -133,20 +135,37 @@ button {
 
 .menu__list-link:hover {
   color: #E3B873;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.header__phone {
+  position: relative;
+  left: 42px;
 }
 
 .header__phone:hover {
   color: #fff;
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
-.request-call {
+.header__request-call {
   font-size: 11px;
   text-align: center;
   text-transform: uppercase;
   color: #FFF;
-  padding: 13px 33px;
+  padding: 10px 32px;
   background: #E3B873;
   -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
           box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
+  border: 2px solid transparent;
+}
+
+.header__request-call:hover {
+  background-color: transparent;
+  border: 2px solid #E3B873;
+  -webkit-transition: 3s;
+  transition: 3s;
 }

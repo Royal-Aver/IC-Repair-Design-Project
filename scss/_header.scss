@@ -18,6 +18,7 @@
 }
 .header__logo:hover {
 	color: #fff;
+	transition: .6s;
 }
 .header__menu {
 	max-width: 573px;
@@ -34,7 +35,7 @@
 }
 
 .menu__list-item+.menu__list-item {
-	margin-left: 47px;
+	margin-left: 54px;
 }
 .menu__list-link {
 	font-size: 11px;
@@ -42,20 +43,31 @@
 }
 
 .menu__list-link:hover {
-	color: #E3B873;;
+	color: #E3B873;
+	transition: .6s;
 }
 .header__phone {
+	position: relative;
+	left: 42px;
 }
 .header__phone:hover {
 	color: #fff;
+	transition: .6s;
 }
-.request-call {
+.header__request-call {
 	font-size: 11px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #FFF;
-	padding: 13px 33px;
+	padding: 10px 32px;
 	background: #E3B873;
 	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 	border-radius: 2px;
+	border: 2px solid transparent;
+}
+
+.header__request-call:hover {
+	background-color: transparent;
+	border: 2px solid #E3B873;
+	transition: 3s;
 }
