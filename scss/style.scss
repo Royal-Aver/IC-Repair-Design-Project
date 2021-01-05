@@ -16,5 +16,6 @@ p,a{font-family: 'Nunito Sans', sans-serif; color: #fff;}
 .link {font-size: 11px;color: #E3B873;}
 button {font-family: Nunito Sans;font-style: italic;color:#fff; font-size: 11px;text-transform: uppercase;}
 
-@import "_header";
+@import "header";
 @import "top";
+@import "mobile";
