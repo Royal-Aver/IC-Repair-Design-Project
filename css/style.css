@@ -218,6 +218,32 @@ button {
   background-color: transparent;
 }
 
+.projects__inner {
+  padding: 107px 0 416px 0;
+  background: #131313;
+}
+
+.projects__container {
+  max-width: 1171px;
+}
+
+.projects__name-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.projects__name-item + .projects__name-item {
+  margin-left: 60px;
+}
+
 @media screen and (max-width: 376px) {
   .header__inner {
     display: inline-block;
