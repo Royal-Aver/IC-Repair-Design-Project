@@ -1,0 +1,38 @@
+.top__inner {
+	padding: 191px 0 208px 0;
+	background-image: url(../img/top/top-bg.jpg);
+	background-repeat: no-repeat;
+}
+.top__container {
+	margin-left: 134px;
+}
+.top__title {
+	max-width: 519px;
+	font-size: 40px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 19px;
+}
+.highlight {
+	color: #E3B873;
+}
+.top__text {
+	max-width: 532px;
+	font-size: 22px;
+	line-height: 36px;
+	margin-bottom: 19px;
+}
+.top__btn-cost {
+	background: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+	border-radius: 2px;
+	padding: 19px 42px 21px 41px;
+	margin-right: 20px;
+}
+.top__btn-submit {
+	border: 1px solid #FFFFFF;	
+	border-radius: 2px;
+	padding: 19px 21px 21px 22px;
+	background-color: transparent;
+}

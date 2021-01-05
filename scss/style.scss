@@ -12,8 +12,9 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;font-family: 'Yeseva One', cursive;}
-p,a,span{font-family: 'Nunito Sans', sans-serif;}
+p,a{font-family: 'Nunito Sans', sans-serif; color: #fff;}
 .link {font-size: 11px;color: #E3B873;}
-button {font-family: Nunito Sans;font-style: italic;}
+button {font-family: Nunito Sans;font-style: italic;color:#fff; font-size: 11px;text-transform: uppercase;}
 
-@import "_header"
+@import "_header";
+@import "top";
