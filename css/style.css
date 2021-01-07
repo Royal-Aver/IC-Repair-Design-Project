@@ -275,6 +275,7 @@ button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-width: 408px;
+  margin-bottom: 80px;
 }
 
 .projects__feature-item {
@@ -300,6 +301,18 @@ button {
   display: block;
   max-width: 178px;
   margin-bottom: 55px;
+}
+
+.slider-icon-left {
+  margin-right: 29px;
+}
+
+.slider-icon-circle + .slider-icon-circle {
+  margin-left: 18px;
+}
+
+.slider-icon-right {
+  margin-left: 29px;
 }
 
 @media screen and (max-width: 376px) {

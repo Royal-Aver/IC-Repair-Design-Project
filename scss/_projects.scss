@@ -43,6 +43,7 @@ color: rgba(255, 255, 255, 0.3);
 	justify-content: space-between;
 	flex-wrap: wrap;
 	max-width: 408px;
+	margin-bottom: 80px;
 }
 .projects__feature-item {
 	max-width: 178px;
@@ -64,4 +65,19 @@ margin-left: 64px;
 	display: block;
 	max-width: 178px;
 	margin-bottom: 55px;
+}
+.slider-icon {
+}
+.slider-icon-left {
+	margin-right: 29px;
+}
+.slider-icon-circle {
+
+}
+.slider-icon-circle+.slider-icon-circle {
+	margin-left: 18px;
+}
+
+.slider-icon-right {
+	margin-left: 29px;
 }
