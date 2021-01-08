@@ -22,6 +22,10 @@ color: rgba(255, 255, 255, 0.3);
 .projects__name-item+.projects__name-item {
 	margin-left: 60px;
 }
+.project__complete-inner {
+	display: flex;
+	justify-content: space-between;
+}
 .projects__complete {
 	max-width: 442px;
 }
@@ -42,15 +46,11 @@ color: rgba(255, 255, 255, 0.3);
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	max-width: 408px;
-	margin-bottom: 80px;
 }
 .projects__feature-item {
-	max-width: 178px;
+	width: 50%;
 }
-.projects__feature-item:nth-child(even) {
-margin-left: 64px;
-}
+
 .projects__feature-title {
 	font-size: 18px;
 	line-height: 25px;
@@ -67,6 +67,7 @@ margin-left: 64px;
 	margin-bottom: 55px;
 }
 .slider-icon {
+
 }
 .slider-icon-left {
 	margin-right: 29px;
