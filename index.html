@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<title>IC Repair</title>
 </head>
+
 <body>
 	<header class="header">
 		<div class="container">
@@ -101,9 +103,57 @@
 					clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can
 					watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to
 					the broadcast.</p>
+				<form class="control__form" action="#">
+					<div class="control__form-inner">
+						<div class="control__form-block">
+							<span class="control__form-text">Name</span>
+							<input class="control__input" type="text" name="username" placeholder="What is your name:"
+								required>
+						</div>
+						<div class="control__form-block">
+							<span class="control__form-text">Phone</span>
+							<input class="control__input" type="tel" name="usertel" placeholder="Your phone number:" required>
+						</div>
+						<button class="control__form-btn">Submit</button>
+					</div>
+					<label class="control__form-label">
+						<input class="control__form-input" type="checkbox" checked>
+						<span class="control__form-checkbox"></span>
+						I agree to the processing of personal data
+					</label>
+				</form>
+			</div>
+		</section>
+		<section class="types">
+			<div class="types__inner">
+				<div class="types__container">
+					<h3 class="types__title">Types of repair</h3>
+					<img class="types__tools-icon" src="../IC-Repair-Design-Project/img/types/tools-icon.svg" alt="">
+					<div class="types__projects">
+						<div class="types__projects-card">
+							<img class="types__projects-img" src="../IC-Repair-Design-Project/img/types/card1.jpg" alt="">
+							<div class="types__projects-description">
+								<h6 class="types__projects-title">Redecorating</h6>
+								<ul class="types__projects-list">
+									<li class="typers__projects-item">Dismantling of old coatings</li>
+									<li class="typers__projects-item">Wallpapering</li>
+									<li class="typers__projects-item">Painting walls and ceilings</li>
+									<li class="typers__projects-item">Laying flooring</li>
+									<li class="typers__projects-item">Replacing plumbing</li>
+									<li class="typers__projects-item">Replacing sockets and switches</li>
+									<li class="typers__projects-item">Replacing doors</li>
+								</ul>
+							</div>
+							<div class="types__projects-cost">
+								<span class="types__projects-cost-text">from 900 rub / m2</span>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
 	</section>
 </body>
+
 </html>
