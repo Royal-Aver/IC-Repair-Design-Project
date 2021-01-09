@@ -1,10 +1,10 @@
-.types {
-}
 .types__inner {
+	padding-bottom: 124px;
 }
 .types__container {
 	width: 1234px;
-	margin: 0 auto;;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 .types__title {
 	color: #181818;
@@ -22,25 +22,24 @@
 	display: flex;
 	justify-content: space-between;
 }
-.types__projects-card {
-}
 .types__projects-img {
 	z-index: 1;
 }
 .types__projects-description {
 	margin-top: -128px;
 	padding: 25px 68px 49px 34px;
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 	z-index: 2;
+	max-width: 330px;
+	display: inline-block;
 }
 .types__projects-title {
 	font-size: 18px;
 	margin-bottom: 13px;
 }
-.types__projects-list {
-}
 .typers__projects-item {
+	font-family: 'Nunito Sans', sans-serif;
 	font-size: 13px;
 	color: #959595;
 	margin-bottom: 10px;
@@ -50,10 +49,20 @@
 	background: #E3B873;
 	box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
 	padding: 17px 21px;
+	margin-top: -26px;
 }
 .types__projects-cost-text {
 	color: #fff;
 	font-size: 18px;
 	text-transform: uppercase;
+}
 
+.services {
+}
+.services__point {
+	padding: 117px 79px 56px 239px;
+}
+.services__point-number {
+}
+.services__point-text {
 }
