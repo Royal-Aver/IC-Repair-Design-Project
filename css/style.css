@@ -342,18 +342,19 @@ button {
   margin-bottom: 31px;
 }
 
+.control__works {
+  margin-bottom: 62px;
+  position: relative;
+}
+
 .control__works-img {
   -webkit-filter: drop-shadow(0px 2px 45px rgba(0, 0, 0, 0.15));
           filter: drop-shadow(0px 2px 45px rgba(0, 0, 0, 0.15));
 }
 
-.control__works {
-  margin-bottom: 62px;
-}
-
 .control__works-icon {
   position: absolute;
-  top: 206%;
+  top: 50%;
   left: 50%;
   margin-right: -50%;
   -webkit-transform: translate(-50%, -50%);
@@ -442,6 +443,7 @@ button {
 .control__form-input:checked + .control__form-checkbox {
   background-image: url(../img/control/checked.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .types__inner {
@@ -519,8 +521,35 @@ button {
   text-transform: uppercase;
 }
 
-.services__point {
+.services {
   padding: 117px 79px 56px 239px;
+  background-image: url(../img/types/bg-services.png);
+  background-repeat: no-repeat;
+}
+
+.services__point {
+  margin-bottom: 102px;
+}
+
+.services__point-number {
+  padding: 13px 5px;
+  display: block;
+  background-image: url(../img/types/circle-services.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 42px;
+  font-family: 'Yeseva One', cursive;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin-right: 17px;
+}
+
+.services__point-text {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636;
 }
 
 @media screen and (max-width: 376px) {

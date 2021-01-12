@@ -58,11 +58,32 @@
 }
 
 .services {
+	padding: 117px 79px 56px 239px;
+	background-image: url(../img/types/bg-services.png);
+	background-repeat: no-repeat;
 }
 .services__point {
-	padding: 117px 79px 56px 239px;
+	margin-bottom: 102px;
+
+	
 }
 .services__point-number {
+	padding: 13px 5px;
+	display: block;
+	background-image: url(../img/types/circle-services.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 42px;
+	font-family: 'Yeseva One', cursive;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	margin-right: 17px;
+
 }
 .services__point-text {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	color: #363636;
 }

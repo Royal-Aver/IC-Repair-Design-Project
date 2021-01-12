@@ -18,15 +18,17 @@
 	margin: 0 auto;
 	margin-bottom: 31px;
 }
+.control__works {
+	margin-bottom: 62px;
+	position: relative;
+}
 .control__works-img {
 	filter: drop-shadow(0px 2px 45px rgba(0, 0, 0, 0.15));
 }
-.control__works {
-	margin-bottom: 62px;
-}
+
 .control__works-icon {
 	position: absolute;
-	top: 206%;
+	top: 50%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
@@ -102,6 +104,7 @@
 .control__form-input:checked+.control__form-checkbox {
 	background-image: url(../img/control/checked.svg);
 	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
