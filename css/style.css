@@ -521,35 +521,54 @@ button {
   text-transform: uppercase;
 }
 
-.services {
-  padding: 117px 79px 56px 239px;
-  background-image: url(../img/types/bg-services.png);
+.services__inner {
+  background-image: url(../img/services/bg-services.png);
   background-repeat: no-repeat;
+  background-position: left top;
 }
 
-.services__point {
-  margin-bottom: 102px;
+.services__container {
+  max-width: 1095px;
+  margin: 0 auto;
+}
+
+.services__request {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__point-inner {
+  max-width: 381px;
+  padding: 117px 79px 54px 0;
 }
 
 .services__point-number {
-  padding: 13px 5px;
-  display: block;
-  background-image: url(../img/types/circle-services.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 42px;
-  font-family: 'Yeseva One', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Yeseva One";
   font-size: 18px;
-  text-align: center;
-  color: #fff;
-  margin-right: 17px;
+  color: #FFFFFF;
+  width: 86px;
+  height: 81px;
+  background-image: url(../img/services/circle-services.svg);
+  margin-right: 21px;
 }
 
-.services__point-text {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 14px;
-  line-height: 19px;
-  color: #363636;
+.services__request-form {
+  background: #131313;
+  -webkit-box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 376px) {

@@ -1,0 +1,46 @@
+.services {
+}
+.services__inner {
+	background-image: url(../img/services/bg-services.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.services__container {
+	max-width: 1095px;
+	margin: 0 auto;
+}
+.services__request {
+	display: flex;
+	justify-content: space-between;
+}
+.services__point {
+
+}
+.services__point-inner {
+	max-width: 381px;
+	padding: 117px 79px 54px 0;
+}
+.services__point-number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Yeseva One";
+	font-size: 18px;
+	color: #FFFFFF;
+	width: 86px;
+	height: 81px;
+	background-image: url(../img/services/circle-services.svg);
+	margin-right: 21px;
+}
+
+.services__point-text {
+}
+
+
+.services__request-form {
+	background: #131313;
+box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+.request-title {
+}
