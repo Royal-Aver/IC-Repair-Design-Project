@@ -525,6 +525,7 @@ button {
   background-image: url(../img/services/bg-services.png);
   background-repeat: no-repeat;
   background-position: left top;
+  margin-bottom: 352px;
 }
 
 .services__container {
@@ -666,6 +667,34 @@ button {
   -webkit-box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
           box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
   padding: 19px 25px;
+}
+
+.choice__inner {
+  background-image: url(../img/choice/choice-bg.jpg);
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.choice__container {
+  max-width: 1238px;
+  margin: 0 auto;
+}
+
+.choce__text-content {
+  max-width: 286px;
+}
+
+.choice__content-title {
+  display: inline-block;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
 }
 
 @media screen and (max-width: 376px) {
