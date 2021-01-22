@@ -739,7 +739,9 @@ button {
 }
 
 .revievs {
-  padding: 69px 0 132px 0;
+  padding: 69px 0 354px 0;
+  background: url(../img/revievs/bg-bottom-right.svg) bottom right, url(../img/revievs/bg-bottom-left.png) bottom left;
+  background-repeat: no-repeat;
 }
 
 .revievs__container {
@@ -848,6 +850,83 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.contacts__container {
+  max-width: 925px;
+  margin: 0 auto;
+}
+
+.contacts__form {
+  margin-top: -223px;
+  background: #181818;
+  max-width: 883px;
+  padding: 34px 182px 34px 182px;
+}
+
+.contacts__form-title {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 46px;
+}
+
+.contact__form-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contacts__form-block {
+  display: inline-block;
+}
+
+.contacts__form-block + .contacts__form-block {
+  margin-left: 58px;
+}
+
+.contacts__form-text {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 7px;
+}
+
+.contacts__input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  width: 231px;
+}
+
+.contacts__input:nth-child(3) {
+  width: 517px;
+}
+
+.contacts__form-label {
+  color: #fff;
+}
+
+.contacts__form-input {
+  -moz-appearance: none;
+       appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+}
+
+.contacts__form-checkbox {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border-radius: 1px;
+  background-color: #e3b873;
+  margin-left: -1.2em;
+}
+
+.contacts__form-input:checked + .contacts__form-checkbox {
+  background-image: url(../img/control/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (max-width: 376px) {
