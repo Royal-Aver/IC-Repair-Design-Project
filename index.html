@@ -355,42 +355,65 @@
 			</div>
 		</section>
 		<section class="contacts">
-			<div class="contacts__container">
-				<div class="contacts__form">
-					<h3 class="contacts__form-title">have any questions?</h3>
-					<form action="#">
-						<div class="contact__form-top">
-							<div class="contacts__form-block">
-								<p class="contacts__form-text">Name</p>
-								<input type="text" class="contacts__input" name="username" placeholder="What is your name:"
-									required>
+			<div class="contacts__inner">
+				<div class="contacts__container">
+					<div class="contacts__form">
+						<h3 class="contacts__form-title">have any questions?</h3>
+						<form action="#">
+							<div class="contact__form-top">
+								<div class="contacts__form-block">
+									<p class="contacts__form-text">Name</p>
+									<input type="text" class="contacts__input" name="username" placeholder="What is your name:"
+										required>
+								</div>
+								<div class="contacts__form-block">
+									<p class="contacts__form-text">Phone</p>
+									<input type="text" class="contacts__input" name="username" placeholder="Your phone number:"
+										required>
+								</div>
 							</div>
 							<div class="contacts__form-block">
-								<p class="contacts__form-text">Phone</p>
-								<input type="text" class="contacts__input" name="username" placeholder="Your phone number:"
-									required>
+								<p class="contacts__form-text">Question</p>
+								<input type="text" class="contacts__input" name="username" placeholder="I want to know:" required>
 							</div>
+							<label class="contacts__form-label">
+								<input class="contacts__form-input" type="checkbox" checked>
+								<span class="contacts__form-checkbox"></span>I agree to the processing of personal data
+							</label>
+							<button class="contacts__form-btn">Submit</button>
+						</form>
+					</div>
+					<span class="contacts__adress">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32
+						29</span>
+						<div class="contacts__icon">
+							<img class="contacts__icon-item" src="./img/contacts/icon-left.svg" alt="">
+							<img class="contacts__icon-item" src="./img/contacts/icon-right.svg" alt="">
 						</div>
-						<div class="contacts__form-block">
-							<p class="contacts__form-text">Question</p>
-							<input type="text" class="contacts__input" name="username" placeholder="I want to know:" required>
-						</div>
-						<label class="contacts__form-label">
-							<input class="contacts__form-input" type="checkbox" checked>
-							<span class="contacts__form-checkbox"></span>I agree to the processing of personal data
-						</label>
-						<button class="contacts__form-btn">Submit</button>
-					</form>
+					
+					<img class="contacts__map" src="./img/contacts/map.jpg" alt="">
 				</div>
-				<span class="contacts__adress">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32
-					29</span>
-				<img class="contacts__icon" src="./img/contacts/icon-left.svg" alt="">
-				<img class="contacts__icon" src="./img/contacts/icon-right.svg" alt="">
-				<img class="contacts__map" src="./img/contacts/map.jpg" alt="">
 			</div>
 		</section>
 	</main>
-	</section>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<a class="header__logo link" href="#">IC "Repair Design Project"</a>
+				<nav class="header__menu">
+					<ul class="menu__list">
+						<li class="menu__list-item"><a class="menu__list-link" href="">HOME</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="">PROJECTS</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="#">MEASUREMENT</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="">TEAM</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="">REVIEWS</a></li>
+						<li class="menu__list-item"><a class="menu__list-link" href="">CONTACTS</a></li>
+					</ul>
+				</nav>
+				<a class="header__phone link" href="+79287683239">+7 (928) 768-32-39</a>
+				<button class="header__request-call">Request a call</button>
+			</div>
+		</div>
+	</header>
 </body>
 
 </html>
